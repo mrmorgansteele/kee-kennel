@@ -1,0 +1,13 @@
+{
+  "title": "Monday.com",
+  "shortcuts": [
+    {
+      "keys": "aa",
+      "action": "aa"
+    },
+    {
+      "keys": "bb",
+      "action": "bb"
+    }
+  ]
+}

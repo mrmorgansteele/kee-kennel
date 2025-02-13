@@ -1,0 +1,13 @@
+{
+  "title": "Google's Chrome Browser",
+  "shortcuts": [
+    {
+      "keys": "aa",
+      "action": "aa"
+    },
+    {
+      "keys": "bb",
+      "action": "bb"
+    }
+  ]
+}

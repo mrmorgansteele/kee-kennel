@@ -1,0 +1,13 @@
+{
+  "title": "Mac OS",
+  "shortcuts": [
+    {
+      "keys": "aa",
+      "action": "aa"
+    },
+    {
+      "keys": "bb",
+      "action": "bb"
+    }
+  ]
+}
