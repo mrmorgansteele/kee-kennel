@@ -1,10 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+
+
+
+
+
 # Welcome!
 
 Just some text to get started!
 
 
 
-
+Shift + 1 then enter = html skeleton, but only in html file
 
 Change Tabs in Chrome
 Option (⌥) + Command (⌘) + Right Arrow (→) = In chrome switches tabs to the right
@@ -27,3 +40,6 @@ Control (^) + Shift (⇧) + 8 = Bullet List
 
 
 MONDAY.COM
+
+</body>
+</html>
