@@ -1,19 +1,19 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-
-
-
-
+---
+layout: pages/homepage.html
+title: "HI"
+---
 
 # Welcome!
 
-Just some text to get started!
+{% if data.tools %}
+  <ul>
+    {%- for tool in data.tools -%}
+      <li>{{ tool.name }}</li>
+    {%- endfor -%}
+  </ul>
+{% endif %}
+
+Just some text to get started!>
 
 
 
@@ -40,6 +40,3 @@ Control (^) + Shift (⇧) + 8 = Bullet List
 
 
 MONDAY.COM
-
-</body>
-</html>

@@ -1,0 +1,16 @@
+{
+  "tools": [
+    {
+      "name": "Google Chrome Browser",
+      "slug": "google-chrome"
+    },
+    {
+      "name": "Mac OS",
+      "slug": "mac-os"
+    },
+    {
+      "name": "Monday.com",
+      "slug": "monday"
+    }
+  ]
+}
