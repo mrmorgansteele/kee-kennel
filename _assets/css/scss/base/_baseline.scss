@@ -1,0 +1,111 @@
+@use '_variables' as *;
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, Cantarell, "Noto Sans", sans-serif, "system-ui", "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  background-color: #cbccce;
+  display: block;
+  clear: both;
+  height: 0;
+}
+.visually-hidden {
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+}
+.group:after {
+  visibility: hidden;
+  display: block;
+  content: "";
+  clear: both;
+  height: 0;
+}
+.italic {  font-style:italic;  }
+.bold {    font-weight:bold;   }
+.left {    text-align:left;    }
+.center {  text-align:center;  }
+.right {   text-align:right;   }
+hr {
+  border: 0;
+  height: 1px;
+  background-color: #333;
+}
+
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* -older browser warning------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+  .browserupgrade {
+    display: block;
+    margin: 0;
+    padding: 1em;
+    background-color: #fde4e1;
+    color: #b10009;
+    border: 1px solid #fbd3c6;
+    text-align: center;
+  }
+  .browserupgrade a {
+    color: #85070e;
+    font-weight: bold;
+  }
+
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* -skip navigation------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+  #skip_to_content {
+    padding: 1em;
+    position: absolute;
+    top: -4em;
+    left: 1em;
+    z-index: 1000;
+    color: $white;
+  }
+  #skip_to_content:focus {
+    position: absolute;
+    top: 0;
+    background: #222;
+  }
+  .skip_main_content a,
+  .skip_page_content a {
+    position: absolute;
+    padding: .75em;
+    padding-right: 1.5em;
+    color: $white;
+    font-weight: bold;
+    background: transparent;
+    z-index: 999;
+    border-bottom-right-radius: 30px;
+  }
+  .skip_main_content a {
+    top: -4em;
+    left: 0;
+    transition: top 1s ease-out, background 1s linear;
+  }
+  .skip_page_content a {
+    left: -12.5em;
+    width: 10em;
+    transition: left 1s ease-out, background 1s linear;
+  }
+  .skip_main_content a:focus,
+  .skip_page_content a:focus {
+    position: absolute;
+    background-color: #990000;
+  }
+  .skip_main_content a:focus {
+    top: 0;
+    left: 0;
+    transition:top .1s ease-in, background .5s linear;
+  }
+  .skip_page_content a:focus {
+    width: auto;
+    left: 0;
+    transition:left .1s ease-in, background .5s linear;
+  }
