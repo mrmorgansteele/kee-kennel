@@ -2,11 +2,11 @@
   "title": "Google's Chrome Browser",
   "shortcuts": [
     {
-      "keys": "aa",
+      "keys": "key-aa",
       "action": "aa"
     },
     {
-      "keys": "bb",
+      "keys": "key-bb",
       "action": "bb"
     }
   ]

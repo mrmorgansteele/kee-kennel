@@ -2,11 +2,11 @@
   "title": "Monday.com",
   "shortcuts": [
     {
-      "keys": "aa",
+      "keys": "key-aa",
       "action": "aa"
     },
     {
-      "keys": "bb",
+      "keys": "key-bb",
       "action": "bb"
     }
   ]

@@ -6,3 +6,11 @@
 @use 'base/_variables' as *;
 @use 'base/_reset';
 @use 'base/_baseline';
+
+//HOMEPAGE
+@use 'homepage/_header-homepage';
+@use 'homepage/_intro';
+@use 'homepage/_menu';
+
+//TOOLS
+@use 'tools/_header-tools';

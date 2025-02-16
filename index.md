@@ -1,21 +1,15 @@
 ---
 layout: pages/homepage.html
-title: "HI"
+body_class: homepage
 ---
 
-# Welcome!
 
-{% if data.tools %}
-  <ul>
-    {%- for tool in data.tools -%}
-      <li>{{ tool.name }}</li>
-    {%- endfor -%}
-  </ul>
-{% endif %}
-
-Just some text to get started!>
+Kee's Kennel is just a simple place to store all those pesky keyboard shortcuts I use for a week and then forget over a long weekend!
 
 
+
+
+<!--
 
 Shift + 1 then enter = html skeleton, but only in html file
 
@@ -40,3 +34,5 @@ Control (^) + Shift (⇧) + 8 = Bullet List
 
 
 MONDAY.COM
+
+-->

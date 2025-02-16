@@ -2,7 +2,7 @@
   "tools": [
     {
       "name": "Google Chrome Browser",
-      "slug": "google-chrome"
+      "slug": "google-chrome-browser"
     },
     {
       "name": "Mac OS",
@@ -10,7 +10,7 @@
     },
     {
       "name": "Monday.com",
-      "slug": "monday"
+      "slug": "monday-com"
     }
   ]
 }

@@ -1,0 +1,21 @@
+@use '../base/_variables' as *;
+
+.homepage__intro {
+  width: 80%;
+  max-width: 1100px;
+  margin: 0 auto;
+
+  font-family: "Dosis", serif;
+  font-size: 1.5rem;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+
+  @media screen and (min-width: 600px) {
+  font-size: calc(100% + 2vw);
+  }
+
+  @media screen and (min-width: 1000px) {
+    font-size: 50px;
+  }
+}

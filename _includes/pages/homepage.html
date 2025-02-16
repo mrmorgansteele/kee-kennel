@@ -1,29 +1,17 @@
 {% include "organisms/global/html-head.html" %}
 
+{% include "organisms/global/header-homepage.html" %}
 
+{% include "organisms/homepage/intro.html" %}
 
-<header class="homepage">
-  <div class="site-header__initial-components" id="site-header__initial-components">
-    <a id="skip_to_content" href="#main_content">skip to main content</a>
-    <!--[if lt IE 11]>
-      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-    <![endif]-->
-  </div>
-
-
-
-  {% include "atoms/kee-with-keyboard.hbs" %}
-  <h1>Kee's Kennel</h1>
-</header>
-
-
-<style>
-  header.homepage {
-    background-color: red;
-  }
-</style>
-
-
-{{ content }}
+<div class="homepage__menu">
+  {% if data.tools %}
+    <ul>
+      {%- for tool in data.tools -%}
+        <li><a href="/tools/{{ tool.slug }}/">{{ tool.name }}</a></li>
+      {%- endfor -%}
+    </ul>
+  {% endif %}
+</div>
 
 {% include "organisms/global/html-foot.html" %}

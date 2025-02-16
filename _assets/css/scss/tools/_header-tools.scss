@@ -1,0 +1,33 @@
+@use '../base/_variables' as *;
+
+.tool header {
+  background-color: $white;
+  background: linear-gradient(45deg, rgba($bold_orange,.9) 0%, rgba($bold_yellow,.9) 100%);
+  margin: 0;
+  padding: 10px 5px 0 5px;
+
+  .header-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+
+    .kee-without-keyboard {
+      width: 80px;
+      height: auto;
+      margin-bottom: -7.5px;
+    }
+  }
+}
+
+.tool {
+  h1 {
+    font-family: "Dosis", serif;
+    font-size: 2.2rem;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    text-align: center;
+  }
+}
