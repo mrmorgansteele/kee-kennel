@@ -2,12 +2,23 @@
   "title": "Mac OS",
   "shortcuts": [
     {
-      "keys": "key-aa",
-      "action": "aa"
+      "operation": "Joint operation title",
+      "actions": [
+        {
+          "keys": "key-aa",
+          "action": "aa-action"
+        },
+        {
+          "keys": "key-bb",
+          "action": "bb-action"
+        }
+      ]
     },
     {
-      "keys": "key-bb",
-      "action": "bb"
+      "actions": [
+        "keys": "key-bb",
+        "action": "bb"
+      ]
     }
   ]
 }
