@@ -6,18 +6,18 @@
       "actions": [
         {
           "keys": "key-aa",
-          "action": "aa-action"
+          "outcome": "aa-action"
         },
         {
           "keys": "key-bb",
-          "action": "bb-action"
+          "outcome": "bb-action"
         }
       ]
     },
     {
       "actions": [
         "keys": "key-bb",
-        "action": "bb"
+        "outcome": "bb"
       ]
     }
   ]
