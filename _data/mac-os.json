@@ -1,23 +1,38 @@
 {
   "title": "Mac OS",
-  "shortcuts": [
+  "sections": [
     {
-      "operation": "Joint operation title",
-      "actions": [
+      "section_title": "General",
+      "shortcuts": [
         {
-          "keys": "key-aa",
-          "outcome": "aa-action"
+          "operation": "Change Workspaces",
+          "actions": [
+            {
+              "keys": "Change left",
+              "outcome": "Control (^) + Left Arrow (←)"
+            },
+            {
+              "keys": "Change right",
+              "outcome": "Control (^) + Right Arrow (→)"
+            }
+          ]
         },
         {
-          "keys": "key-bb",
-          "outcome": "bb-action"
+          "actions": [
+            {
+              "keys": "Control (^) + Up Arrow (↑)",
+              "outcome": "Mission Control enter or leave (ie. all open windows on current desktop)"
+            }
+          ]
+        },
+        {
+          "actions": [
+            {
+              "keys": "Control (^) + Down Arrow (↓)",
+              "outcome": "Show all open windows for the current app"
+            }
+          ]
         }
-      ]
-    },
-    {
-      "actions": [
-        "keys": "key-bb",
-        "outcome": "bb"
       ]
     }
   ]

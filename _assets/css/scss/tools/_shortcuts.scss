@@ -1,0 +1,47 @@
+@use '../base/_variables' as *;
+
+.tool h2 {
+  width: 90%;
+  margin: 1rem auto .75rem;
+}
+.shortcut-block {
+  width: 90%;
+  margin: 0 auto 1.125rem;
+  border: 1px solid #ececec;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: .625rem;
+}
+.shortcut-block p {
+  margin: 0;
+  padding: .625rem;
+  font-weight: bold;
+  font-size: 1rem;
+  border-bottom: 2px solid #ececec;
+  background-color: #ececec;
+  text-transform: uppercase;
+}
+
+.shortcut-block__inner {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+
+  border-bottom: 2px solid #ececec;
+  padding: .625rem;
+}
+.shortcut-block__inner:last-child {
+  border-bottom: 0;
+}
+.shortcut-block__inner:nth-child(odd) {
+  background-color: #fafafa;
+}
+
+.shortcut-block__inner :first-child {
+  flex: 2 2 60%;
+  font-weight: bold;
+}
+.shortcut-block__inner :last-child {
+  flex: 1 1 40%;
+}

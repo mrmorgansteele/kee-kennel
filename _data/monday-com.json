@@ -1,23 +1,58 @@
+
 {
   "title": "Monday.com",
-  "shortcuts": [
+  "sections": [
     {
-      "operation": "Joint operation title",
-      "actions": [
+      "section_title": "General",
+      "shortcuts": [
         {
-          "keys": "key-aa",
-          "outcome": "aa-action"
+          "actions": [
+            {
+              "keys": "Command (⌘) + b",
+              "outcome": "Bold text"
+            }
+          ]
         },
         {
-          "keys": "key-bb",
-          "outcome": "bb-action"
+          "actions": [
+            {
+              "keys": "Command (⌘) + i",
+              "outcome": "Italicize"
+            }
+          ]
+        },
+        {
+          "actions": [
+            {
+              "keys": "Command (⌘) + u",
+              "outcome": "Underline"
+            }
+          ]
+        },
+        {
+          "actions": [
+            {
+              "keys": "Command (⌘) + k",
+              "outcome": "Hyperlink"
+            }
+          ]
+        },
+        {
+          "actions": [
+            {
+              "keys": "Control (^) + Shift (⇧) + 7",
+              "outcome": "Numbered List"
+            }
+          ]
+        },
+        {
+          "actions": [
+            {
+              "keys": "Control (^) + Shift (⇧) + 8",
+              "outcome": "Bullet List"
+            }
+          ]
         }
-      ]
-    },
-    {
-      "actions": [
-        "keys": "key-bb",
-        "outcome": "bb"
       ]
     }
   ]

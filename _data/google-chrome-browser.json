@@ -1,23 +1,22 @@
 {
   "title": "Google's Chrome Browser",
-  "shortcuts": [
+  "sections": [
     {
-      "operation": "Joint operation title",
-      "actions": [
+      "section_title": "General",
+      "shortcuts": [
         {
-          "keys": "key-aa",
-          "outcome": "aa-action"
-        },
-        {
-          "keys": "key-bb",
-          "outcome": "bb-action"
+          "operation": "Change Tabs",
+          "actions": [
+            {
+              "keys": "Switch tabs to the left",
+              "outcome": "Option (⌥) + Command (⌘) + Left Arrow (←)"
+            },
+            {
+              "keys": "Switch tabs to the right",
+              "outcome": "Option (⌥) + Command (⌘) + Right Arrow (→)"
+            }
+          ]
         }
-      ]
-    },
-    {
-      "actions": [
-        "keys": "key-bb",
-        "outcome": "bb"
       ]
     }
   ]
