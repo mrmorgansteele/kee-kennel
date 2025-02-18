@@ -1,5 +1,37 @@
 @use '../base/_variables' as *;
 
 .homepage__menu {
+  padding: 4rem 0;
   background-color: $lit_grey;
+
+  ul {
+    width: 90%;
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+    border: 1px solid #ececec;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: .625rem;
+    overflow: hidden;
+  }
+  li {
+    font-size: 1rem;
+    border-bottom: 2px solid #ececec;
+    background-color: #fff;
+  }
+  li:last-child {
+    border: 0;
+  }
+  li:nth-child(even) {
+    background-color: #fafafa;
+  }
+
+  a {
+    display: block;
+    padding: .625rem;
+    font-weight: bold;
+    color: $black;
+  }
 }
