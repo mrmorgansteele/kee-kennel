@@ -8,12 +8,12 @@
           "operation": "Change Tabs",
           "actions": [
             {
-              "keys": "Switch tabs to the left",
-              "outcome": "Option (⌥) + Command (⌘) + Left Arrow (←)"
+              "keys": "Option (⌥) + Command (⌘) + Left Arrow (←)",
+              "outcome": "Switch tabs to the left"
             },
             {
-              "keys": "Switch tabs to the right",
-              "outcome": "Option (⌥) + Command (⌘) + Right Arrow (→)"
+              "keys": "Option (⌥) + Command (⌘) + Right Arrow (→)",
+              "outcome": "Switch tabs to the right"
             }
           ]
         }

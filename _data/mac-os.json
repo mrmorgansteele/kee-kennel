@@ -8,12 +8,12 @@
           "operation": "Change Workspaces",
           "actions": [
             {
-              "keys": "Change left",
-              "outcome": "Control (^) + Left Arrow (←)"
+              "keys": "Control (^) + Left Arrow (←)",
+              "outcome": "Change Workspaces left"
             },
             {
-              "keys": "Change right",
-              "outcome": "Control (^) + Right Arrow (→)"
+              "keys": "Control (^) + Right Arrow (→)",
+              "outcome": "Change Workspaces right"
             }
           ]
         },
