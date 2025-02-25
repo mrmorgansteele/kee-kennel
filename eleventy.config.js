@@ -9,6 +9,9 @@ export default function (eleventyConfig) {
   // Watch Targets
   eleventyConfig.addWatchTarget("./_assets/css/scss/base/");
   eleventyConfig.addWatchTarget("./_assets/css/scss/homepage/");
+
+  // Adding asset pass through
+  eleventyConfig.addPassthroughCopy({ "_assets/images": "assets/images" });
 };
 
 export const config = {
