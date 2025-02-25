@@ -4,7 +4,7 @@ pagination:
   size: 1
   alias: tool
   generatePageOnEmptyData: true
-permalink: tools/{{ tool.name | slugify }}/
+permalink: ./tools/{{ tool.name | slugify }}/
 layout: pages/tools.html
 body_class: tool
 eleventyComputed:
