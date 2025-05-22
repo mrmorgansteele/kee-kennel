@@ -1,0 +1,34 @@
+{
+  "title": "VS Code",
+  "sections": [
+    {
+      "section_title": "General",
+      "shortcuts": [
+        {
+          "actions": [
+            {
+              "keys": "Control (^) + Tab",
+              "outcome": "Switch between open files"
+            }
+          ]
+        },
+        {
+          "actions": [
+            {
+              "keys": "Control (^) + `",
+              "outcome": "Jump to Terminal"
+            }
+          ]
+        },
+        {
+          "actions": [
+            {
+              "keys": "Option (⌥) + z",
+              "outcome": "Word wrap Toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
