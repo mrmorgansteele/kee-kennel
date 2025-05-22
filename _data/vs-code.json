@@ -24,7 +24,7 @@
           "actions": [
             {
               "keys": "Option (⌥) + z",
-              "outcome": "Word wrap Toggle"
+              "outcome": "Word wrap toggle"
             }
           ]
         }

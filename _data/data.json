@@ -11,6 +11,10 @@
     {
       "name": "Monday.com",
       "slug": "monday-com"
+    },
+    {
+      "name": "VS Code",
+      "slug": "vs-code"
     }
   ]
 }
