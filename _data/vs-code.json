@@ -27,8 +27,38 @@
               "outcome": "Word wrap toggle"
             }
           ]
+        },
+        {
+          "actions": [
+            {
+              "keys": "Control (^) + Space (_), type 'Docopossum'",
+              "outcome": "Docopossum Snippet"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Text Transform",
+      "shortcuts": [
+        {
+          "actions": [
+            {
+              "keys": "Control (^) + Shift (⇧) + u",
+              "outcome": "Change to UPPERCASE"
+            }
+          ]
+        },
+        {
+          "actions": [
+            {
+              "keys": "Control (^) + Shift (⇧) + l",
+              "outcome": "Change to lowercase"
+            }
+          ]
         }
       ]
     }
+
   ]
 }
