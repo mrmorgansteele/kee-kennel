@@ -45,7 +45,7 @@
           "actions": [
             {
               "keys": "Control (^) + Shift (⇧) + u",
-              "outcome": "Change to UPPERCASE"
+              "outcome": "Change to UPPERCASE (Keybinding)"
             }
           ]
         },
@@ -53,7 +53,15 @@
           "actions": [
             {
               "keys": "Control (^) + Shift (⇧) + l",
-              "outcome": "Change to lowercase"
+              "outcome": "Change to lowercase (Keybinding)"
+            }
+          ]
+        },
+        {
+          "actions": [
+            {
+              "keys": "Option (⌥) + z, type abbr + Enter",
+              "outcome": "Tag wrap (Keybinding for Emmet: Wrap with Abbreviation)"
             }
           ]
         }
