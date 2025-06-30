@@ -34,6 +34,24 @@
           ]
         }
       ]
+    },
+    {
+      "section_title": "VoiceOver",
+      "shortcuts": [
+        {
+          "operation": "Turn VoiceOver on",
+          "actions": [
+            {
+              "keys": "Touch ID x3",
+              "outcome": "Brings up a menu to turn on multiple Accessibility features"
+            },
+            {
+              "keys": "Command (⌘) + F5",
+              "outcome": "Turn on VoiceOver"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
