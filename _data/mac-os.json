@@ -50,6 +50,19 @@
               "outcome": "Turn on VoiceOver"
             }
           ]
+        },
+        {
+          "operation": "Select",
+          "actions": [
+            {
+              "keys": "Control (^) + Option (⌥) + Space (_)",
+              "outcome": "Select Focused Item"
+            },
+            {
+              "keys": "Control (^) + Option (⌥) + Shift (⇧) + Up Arrow (↑)",
+              "outcome": "Exit Selection (ie. move up)"
+            }
+          ]
         }
       ]
     }
