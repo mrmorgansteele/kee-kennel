@@ -4,14 +4,15 @@
 
 //BASE
 @use 'base/_variables' as *;
-@use 'base/_reset';
-@use 'base/_baseline';
+@use 'base/reset';
+@use 'base/baseline';
+@use 'base/footer';
 
 //HOMEPAGE
-@use 'homepage/_header-homepage';
-@use 'homepage/_intro';
-@use 'homepage/_menu';
+@use 'homepage/header-homepage';
+@use 'homepage/intro';
+@use 'homepage/menu';
 
 //TOOLS
-@use 'tools/_header-tools';
-@use 'tools/_shortcuts';
+@use 'tools/header-tools';
+@use 'tools/shortcuts';

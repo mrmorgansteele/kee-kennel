@@ -14,14 +14,21 @@
     align-items: center;
 
     .kee-without-keyboard {
+      display: block;
       width: 80px;
       height: auto;
       margin-bottom: -7.5px;
+
+      a {
+        display: block;
+        cursor: pointer;
+      }
     }
   }
 }
 
 .tool {
+
   h1 {
     font-family: "Dosis", serif;
     font-size: 2.2rem;
@@ -29,5 +36,9 @@
     font-weight: 800;
     font-style: normal;
     text-align: center;
+  }
+
+  &:last-child {
+    margin-bottom: 100px;
   }
 }

@@ -65,6 +65,54 @@
           ]
         }
       ]
+    },
+    {
+      "section_title": "Spotlight Search",
+      "shortcuts": [
+        {
+          "operation": "Browse More Locations",
+          "actions": [
+            {
+              "keys": "Command (⌘) + 1",
+              "outcome": "Search Applications"
+            },
+            {
+              "keys": "Command (⌘) + 2",
+              "outcome": "Search Files"
+            },
+            {
+              "keys": "Command (⌘) + 3",
+              "outcome": "Search Actions"
+            },
+            {
+              "keys": "Command (⌘) + 4",
+              "outcome": "Search Clipboard"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Screenshots",
+      "shortcuts": [
+        {
+          "operation": "Taking Screenshots",
+          "actions": [
+            {
+              "keys": "Shift (⇧) + Command (⌘) + 3",
+              "outcome": "Screenshot Entire Screen"
+            },
+            {
+              "keys": "Shift (⇧) + Command (⌘) + 4",
+              "outcome": "Screenshot Selection"
+            },
+            {
+              "keys": "Shift (⇧) + Command (⌘) + 4 + Space (_)",
+              "outcome": "Screenshot Window"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
