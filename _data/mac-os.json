@@ -18,18 +18,24 @@
           ]
         },
         {
+          "section_title": "Mission Control",
           "actions": [
             {
               "keys": "Control (^) + Up Arrow (↑)",
               "outcome": "Mission Control enter or leave (ie. all open windows on current desktop)"
+            },
+            {
+              "keys": "Control (^) + Down Arrow (↓)",
+              "outcome": "Show all open windows for the current app"
             }
           ]
         },
         {
+          "operation": "Scrolling",
           "actions": [
             {
-              "keys": "Control (^) + Down Arrow (↓)",
-              "outcome": "Show all open windows for the current app"
+              "keys": "Shift (⇧) + Scroll Wheel",
+              "outcome": "Change scrolling from vertical to horizontal"
             }
           ]
         }
