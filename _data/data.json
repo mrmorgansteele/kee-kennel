@@ -13,6 +13,10 @@
       "slug": "monday-com"
     },
     {
+      "name": "Obsidian",
+      "slug": "obsidian"
+    },
+    {
       "name": "VS Code",
       "slug": "vs-code"
     }

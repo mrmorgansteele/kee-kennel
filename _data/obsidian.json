@@ -1,0 +1,31 @@
+{
+  "title": "Obsidian",
+  "sections": [
+     {
+      "section_title": "General",
+      "shortcuts": [
+        {
+          "actions": [
+            {
+              "keys": "Command (⌘) + e",
+              "outcome": "Toggle reading view"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Custom",
+      "shortcuts": [
+        {
+          "actions": [
+            {
+              "keys": "Command (⌘) + Option (⌥) + t",
+              "outcome": "Insert Template"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
