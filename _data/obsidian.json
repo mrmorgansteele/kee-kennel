@@ -9,6 +9,10 @@
             {
               "keys": "Command (⌘) + e",
               "outcome": "Toggle reading view"
+            },
+            {
+              "keys": "Command (⌘) + Option (⌥) + i",
+              "outcome": "Open Obsidian's Developer Tools"
             }
           ]
         }
