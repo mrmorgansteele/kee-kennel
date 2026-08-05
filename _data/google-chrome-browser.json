@@ -18,6 +18,28 @@
           ]
         }
       ]
+    },
+    {
+      "section_title": "Developer Tools",
+      "shortcuts": [
+        {
+          "operation": "Take Screenshot",
+          "actions": [
+            {
+              "keys": "Command (⌘) + Option (⌥) + i",
+              "outcome": "01 - Open Chrome's Developer Tools"
+            },
+            {
+              "keys": "Control (^) + Shift (⇧) + p",
+              "outcome": "02 - Open Command Menu"
+            },
+            {
+              "keys": "type: screenshot",
+              "outcome": "03 - Take a screenshot"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
