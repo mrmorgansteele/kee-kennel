@@ -30,12 +30,29 @@
               "outcome": "01 - Open Chrome's Developer Tools"
             },
             {
-              "keys": "Control (^) + Shift (⇧) + p",
+              "keys": "Command (⌘) + Shift (⇧) + p",
               "outcome": "02 - Open Command Menu"
             },
             {
               "keys": "type: screenshot",
-              "outcome": "03 - Take a screenshot"
+              "outcome": "03 - Take a screenshot (there are a couple options)"
+            }
+          ]
+        },
+        {
+          "operation": "Emulate: Prefers Reduced Motion",
+          "actions": [
+            {
+              "keys": "Command (⌘) + Option (⌥) + i",
+              "outcome": "01 - Open Chrome's Developer Tools"
+            },
+            {
+              "keys": "Command (⌘) + Shift (⇧) + p",
+              "outcome": "02 - Open Command Menu"
+            },
+            {
+              "keys": "type: motion",
+              "outcome": "03 - Select: 'Emulate CSS prefers-reduced-motion: reduce'"
             }
           ]
         }
